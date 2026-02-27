@@ -184,6 +184,35 @@ button {
     cursor: pointer;
 }
 
+
+/* ===== Login ===== */
+.login-form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.login-form-group {
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #38bdf8;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
 /* ===== FOOTER ===== */
 footer {
     background: #0f172a;
